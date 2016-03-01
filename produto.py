@@ -1,0 +1,5 @@
+Nome = input('Coloque o seu nome :')
+Preco = input('Coloque o valor do produtor : ')
+Quantidade = input('Coloque a quantidade : ')
+Valor_Total = int(Quantidade) * int(Preco)
+print ('Senhor %s seus produtos totalizam R$ %d reais.'%(Nome, Valor_Total))
